@@ -63,3 +63,80 @@ a{
 a:hover{
     color: rgb(96, 95, 102);
 }
+
+/* Resolucion telefonos moviles muy pequeños */
+@media(max-width: 575px){
+    .foto{
+        display: block;
+        width: 250px;
+        border-radius: 5px;
+    }
+
+    .dato_fin{
+        font-size: 20px;
+    }
+
+    .img_datos{
+        display: block;
+        margin: auto;
+        width: 25px;
+    }
+}
+
+/* Resolucion telefonos moviles pequeños */
+@media(min-width: 576px) and (max-width: 767px){
+    .foto{
+        display: block;
+        width: 250px;
+        border-radius: 5px;
+    }
+
+    .dato_fin{
+        font-size: 20px;
+    }
+
+    .img_datos{
+        display: block;
+        margin: auto;
+        width: 25px;
+    }
+
+    footer{
+        text-align: center;
+        color: rgb(1, 1, 82);
+        padding-top: 150px;
+    }
+}
+
+/* Resolucion para tables */
+@media(min-width: 768px) and (max-width: 991px){
+    .foto{
+        display: block;
+        width: 200px;
+        border-radius: 5px;
+    }
+
+    footer{
+        text-align: center;
+        color: rgb(1, 1, 82);
+        padding-top: 90px;
+    }
+}
+
+/* Resolucion para pc de escritorio */
+@media(min-width: 992px){
+    footer{
+        text-align: center;
+        color: rgb(1, 1, 82);
+        padding-top: 200px;
+    }
+}
+
+/* Resolucion para mi tv */
+@media(min-width: 992px){
+    footer{
+        text-align: center;
+        color: rgb(1, 1, 82);
+        padding-top: 170px;
+    }
+}
